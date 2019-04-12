@@ -1,0 +1,22 @@
+{
+  "name": "opensmarty/HttpClient",
+  "description": "HttpClient Class",
+  "license": "Apache-2.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "opensmarty",
+      "email": "opensmarty@gmeil.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Guzzle\\": "src"
+    }
+  }
+}
